@@ -19,7 +19,7 @@ const userSchema = new Schema({
         minlength: 6
     },
     blogs: [{
-        types: mongoose.type.ObjectId,
+        type: mongoose.Types.ObjectId,
         ref: "Blog",
         required: true
     }]
