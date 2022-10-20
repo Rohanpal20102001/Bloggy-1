@@ -54,7 +54,6 @@ export const addBlogs = async (req,res,next) => {
     }
 
     return res.status(201).json({blog});
-
 }
 
 
